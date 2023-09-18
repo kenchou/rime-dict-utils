@@ -11,7 +11,7 @@ cargo build
 ## Usage
 
 ```sh
-Usage: dict [OPTIONS]
+Usage: rime-dict-utils [OPTIONS]
 
 Options:
   -c, --config <FILE>  Sets a custom config file
@@ -22,5 +22,5 @@ Options:
 example:
 
 ```sh
-dict -c /path/to/rime/luna_pinyin/luna_pinyin.sgplus2.dict.yaml > /tmp/luna_pinyin/luna_pinyin.sgplus2.dict.yaml
+rime-dict-utils -c /path/to/rime/luna_pinyin/luna_pinyin.sgplus2.dict.yaml > /tmp/luna_pinyin/luna_pinyin.sgplus2.dict.yaml
 ```
